@@ -1,0 +1,35 @@
+{
+  "tech_stack": {
+    "frontend": "HTML5 + CSS3 + Vanilla JavaScript",
+    "backend": "none",
+    "database": "localStorage (optional, for form state only)",
+    "styling": "Custom CSS with CSS variables for theming; no framework needed",
+    "libraries": [
+      "Feather Icons via CDN (lightweight SVG icons)",
+      "Smooth scroll polyfill if needed for older browsers"
+    ]
+  },
+  "file_plan": [
+    {
+      "path": "index.html",
+      "purpose": "Single-page app with navigation anchors to Home, About, Services, Pricing, Contact sections; includes reusable header and footer"
+    },
+    {
+      "path": "styles.css",
+      "purpose": "Global styles, responsive grid/flexbox layout, color palette (corporate blue/teal accents, neutral grays), typography hierarchy, card components, form styles, mobile-first breakpoints"
+    },
+    {
+      "path": "app.js",
+      "purpose": "Smooth navigation between sections, active nav state tracking, lightweight form validation and localStorage save, scroll-to-section handlers, mobile menu toggle"
+    },
+    {
+      "path": "README.md",
+      "purpose": "Setup instructions (no build step needed), deployment guide (Netlify/Vercel/GitHub Pages), customization tips for colors/copy, optional form backend integration notes"
+    },
+    {
+      "path": "amarktai.project.json",
+      "purpose": "Project manifest with metadata, dependencies, build mode, and deployment configuration"
+    }
+  ],
+  "design_notes": "Modern corporate aesthetic: use a restrained palette (navy/teal primary, light gray backgrounds, white cards), generous whitespace, and strong typography (serif headlines, sans-serif body). Every section uses card-based layouts with subtle box shadows and hover states. CTAs are consistently styled and prominent. Mobile navigation uses a toggle menu. Placeholder imagery uses SVG gradients or simple geometric shapes to convey professionalism without external assets. Sticky header with logo and nav aids navigation on long pages."
+}

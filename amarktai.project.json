@@ -1,0 +1,27 @@
+{
+  "projectName": "Build A 5 Page Professional Consulting",
+  "projectType": "react-app",
+  "buildMode": "custom",
+  "entry": "index.html",
+  "preview": {
+    "type": "static",
+    "entry": "index.html"
+  },
+  "files": [
+    ".env.example",
+    "README.md",
+    "amarktai.project.json",
+    "index.html",
+    "package.json",
+    "requirements.md",
+    "src/App.jsx",
+    "src/main.jsx",
+    "tech_stack.json"
+  ],
+  "deployment": {
+    "type": "static",
+    "notes": "Preview before deployment. Can be pushed to GitHub after validation passes."
+  },
+  "createdBy": "Amarktai App Builder",
+  "version": 1
+}
